@@ -1,2 +1,2 @@
 # EmailDjangoconfig
-Email Django configuration Files 
+Email SMTP(Simple Mail Transfer Protocol) Django configuration Files for the settings.py file
