@@ -2,6 +2,8 @@
 Email SMTP(Simple Mail Transfer Protocol) Django configuration Files for the settings.py file
 
 As Follows:
+
+
 EMAIL_BACKEND= 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com' # or any other mail service that one wishes to use for their web application
 EMAIL_POST= '587' # for TLS
