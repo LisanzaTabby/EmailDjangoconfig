@@ -10,7 +10,10 @@ EMAIL_BACKEND= 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com' # or any other mail service that one wishes to use for their web application
 
 
-EMAIL_POST= '587' # for TLS
+EMAIL_PORT= 587 # for TLS
+
+
+EMAIL_PORT = 465 # for SSL
 
 
 EMAIL_USE_TLS= True
